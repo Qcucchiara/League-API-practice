@@ -1,0 +1,29 @@
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: javascript; */
+}
+.card:hover {
+  justify-content: space-between;
+}
+.card-image {
+  display: block;
+}
+.card-title {
+  font-family: beaufortForLOL-BoldItalic;
+  font-size: 30px;
+  text-align: center;
+  /* position: absolute; */
+  top: 0;
+}
+.card-over-title {
+  font-family: beaufortForLOL-BoldItalic;
+  font-size: 15px;
+  text-align: center;
+}
+.card-content {
+  font-family: beaufortForLOL-Medium;
+  font-size: 12px;
+}
