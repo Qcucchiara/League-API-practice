@@ -31,9 +31,13 @@
 }
 /* main========================================================= */
 .main {
-  width: 90vw;
+  /* width: 90vw; */
   border: 1px solid whitesmoke;
   border-radius: 0.5rem;
   height: 800px;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
 }
 /* footer======================================================= */

@@ -1,8 +1,8 @@
 .card {
   position: relative;
-  display: flex;
   align-items: center;
   justify-content: center;
+  width: fit-content;
   /* background-image: javascript; */
 }
 .card:hover {
@@ -26,4 +26,9 @@
 .card-content {
   font-family: beaufortForLOL-Medium;
   font-size: 12px;
+  position: absolute;
+  bottom: 3rem;
+}
+.card-content-hidden {
+  display: none;
 }
